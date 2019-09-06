@@ -1,0 +1,74 @@
+.movie-card{
+    border: solid 1px #bfbfbf;
+    border-radius: 4px;
+    display: inline-block;
+    width: 540px;
+    margin: 12px;
+   
+}
+
+
+.movie-card-header{
+    background-color:#cccccc;
+    background: linear-gradient(#cccccc,#b3b3b3);
+    padding: 18px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.movie-card-body{
+    padding: 17px;
+    height: 240px;
+    overflow: hidden;
+}
+
+.movie-card-footer{
+    background-color:#d9d9d9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.rating{
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.trailer{
+    float: right;
+    text-decoration:none;
+    text-decoration-color:  none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+/*  from here on it is unstable  because I'm  not sure  */
+.movie-image,  .movie-content{
+    display: inline-block;
+    padding: 10px;
+}
+
+.movie-image{
+    position: relative;
+    padding-top: 2px;
+    margin-top: 2px;
+    width: 122px;
+}
+
+.movie-content{
+   width: 375px;
+   height: 180px;
+   overflow: hidden;
+}
+
+
+.movie-description{
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+

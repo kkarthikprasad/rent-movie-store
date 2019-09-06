@@ -1,0 +1,42 @@
+.registerCustomer{
+    
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 470px;
+    border: solid royalblue 2px;
+    border-radius: 3px;
+    min-width: 200px;
+    width: 550px;
+    align-content: center;
+    
+    /* box-shadow: 5px 6px 15px #888888; */
+    
+    
+}
+
+.registerCustomer-header{
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+
+.registerCustomer-body{
+    padding: 10px;
+    position: relative;
+}
+
+.registerCustomer-form-wrap{
+    margin: 0px auto;
+    width: 80%;
+}
+
+
+.register-customer-modal-body{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+

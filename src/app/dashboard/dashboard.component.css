@@ -1,0 +1,25 @@
+.board-header{
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+}
+
+
+.board-body{
+    
+    padding: 40px;
+}
+
+
+.board{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 250px;
+    border: solid royalblue 2px;
+    border-radius: 3px;
+    min-width: 200px;
+    width:82%;
+    margin-bottom: 50px;
+    
+    /* box-shadow: 5px 6px 15px #888888; */
+}

@@ -1,0 +1,50 @@
+<div class="movie-card">
+    <div class="movie-card-header">
+
+        {{currentMovie.name}}
+    </div>
+
+    <div class="movie-card-body">
+
+
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <img [src]='currentMovie.picturePath' width="122px" height="200px" />
+                    </div>
+                </td>
+                <td>
+                    <div class="movie-content">
+                        <div class="movie-availability">
+                            <span class="label label-success">{{currentMovie.isAvailable}}</span>
+                        </div>
+                        <div class="movie-description">
+                            {{currentMovie.movieDescription}}
+                        </div>
+                        <div class="movie-genre">
+                            <span class="label label-primary">{{currentMovie.genre}}</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+     
+    </div>
+
+    <div class="movie-card-footer">
+        <div class="rating">
+            <!-- <img *ngIf="currentMovie.rating == 0" src='https://upload.wikimedia.org/wikipedia/commons/b/bc/FiveStarsInline0.svg'  width="100px" height="38px"/> -->
+            <img *ngIf="currentMovie.rating == 1" src='https://upload.wikimedia.org/wikipedia/commons/6/6e/FiveStarsInline1.svg'  width="100px" height="38px"/>
+            <img *ngIf="currentMovie.rating == 2" src='https://upload.wikimedia.org/wikipedia/commons/7/75/FiveStarsInline2.svg'  width="100px" height="38px"/>
+            <img *ngIf="currentMovie.rating == 3" src='https://upload.wikimedia.org/wikipedia/commons/d/dc/FiveStarsInline3.svg'  width="100px" height="38px"/>
+            <img *ngIf="currentMovie.rating == 4" src='https://upload.wikimedia.org/wikipedia/commons/1/13/FiveStarsInline4.svg'  width="100px" height="38px"/>
+            <img *ngIf="currentMovie.rating == 5" src='https://upload.wikimedia.org/wikipedia/commons/c/c3/FiveStarsInline5.svg'  width="100px" height="38px"/>
+        </div>
+       
+        <a  target="_blank" class="trailer" [href]='currentMovie.trailerLink'>Trailer <i class="fa fa-video-camera" aria-hidden="true"></i></a> 
+       
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="board">
+    <div class="board-header">
+       Latest Movies
+    </div>
+    <div class="board-body"> 
+        <!-- have to insert the movie componenet herer..  -->
+        <ng-container *ngFor='let c of moviesList'>
+            <app-movie [currentMovie]='c'></app-movie>  
+        </ng-container>
+
+        
+    </div>
+</div>
+
+
